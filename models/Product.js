@@ -41,13 +41,6 @@ Product.init(
         model:'Category',
         key:'id'
       }
-    },
-    tag_id:{
-      type:DataTypes.INTEGER,
-      references:{
-        model:'Tag',
-        key:'id'
-      }
     }
   },
   {

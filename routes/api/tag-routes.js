@@ -50,16 +50,15 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
-    const [rowsUpdated, [updatedTag]] = await Tag.update(req.body, {
+    const [rowsUpdated] = await Tag.update(req.body, {
       where: { id: req.params.id },
-      returning: true,
     });
 
     if (rowsUpdated === 0) {
       return res.status(404).json({ error: 'Tag not found' });
     }
 
-    res.json(updatedTag);
+    res.status(200).json({ message: 'Tag updated successfully' });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Internal Server Error' });
