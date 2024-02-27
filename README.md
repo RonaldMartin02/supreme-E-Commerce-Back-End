@@ -62,6 +62,12 @@ The back-end is built using the following technologies:
     The server should now be running on http://localhost:3001.
 
 ---
+## Deployment
+<video src="./assets/MP4/13_ORM.mp4"></video>
+
+[Link to the Youtube video](https://www.youtube.com/watch?v=ermnjEHeGPM)
+
+---
 ## Usage
 
 The API exposes endpoints for managing products, categories, and tags. You can refer to the API documentation for details on available routes and their functionalities. Make sure to integrate this back-end with the corresponding front-end application for a complete e-commerce experience.
