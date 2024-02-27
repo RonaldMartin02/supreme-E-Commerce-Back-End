@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Deployment](#deployment)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
